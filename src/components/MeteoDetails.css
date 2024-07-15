@@ -1,0 +1,24 @@
+.temperature {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.letter-spacing {
+  letter-spacing: 0.2rem;
+}
+
+.box {
+  background-color: #049dd96f;
+}
+
+@media (max-width: 1199px) {
+  .lg-only {
+    display: none;
+  }
+}
+
+.mini-box {
+  background-color: #615ebf;
+}

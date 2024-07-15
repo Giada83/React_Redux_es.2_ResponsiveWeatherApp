@@ -1,0 +1,50 @@
+.full-height {
+  min-height: 100vh;
+  padding: 0;
+}
+
+.meteo-box {
+  background-color: #0477bf;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .meteo-box {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .sm-only {
+    display: none;
+  }
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  outline: 1px solid lightgray;
+  border: none;
+  border-radius: none;
+}
+
+.search-input::placeholder {
+  color: rgb(86, 85, 85);
+}
+
+.clear-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #888;
+  margin-right: 1rem;
+}
+
+.clear-button:hover {
+  color: #555;
+}
